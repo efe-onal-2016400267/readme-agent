@@ -1,0 +1,20 @@
+# Core LangGraph framework for building agent graphs
+langgraph>=0.8.7
+
+# Official partner package for Gemini models using the modern google-genai SDK
+langchain-google-genai>=2.0.0
+
+# Essential LangChain core abstractions (Messages, State, Runnables)
+langchain-core>=0.3.0
+
+# Watchfiles for local development server hot-reloads (required by langgraph dev)
+watchfiles>=0.21.0
+
+# Pydantic for defining clean, structured output and configuration schemas
+pydantic>=2.0.0
+
+# Environment variable management for API keys (.env files)
+python-dotenv>=1.0.1
+
+# LangGraph command line interface with local development server support
+langgraph-cli[inmem]>=0.1.5

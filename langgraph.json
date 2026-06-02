@@ -1,0 +1,7 @@
+{
+  "dependencies": ["."],
+  "graphs": {
+    "git_agent": "./agent.py:graph"
+  },
+  "env": "secrets.env"
+}
